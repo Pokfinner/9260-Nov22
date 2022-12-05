@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans';
+}
+
+.topnav{
+    display: flex;
+    min-height: 80px;
+}
+
+.topnav .logo{
+    display: flex;
+    background-color: aqua;
+    flex: 1;
+}
+
+.topnav .items{
+    display: flex;
+    background-color: aquamarine;
+    flex: 3;
+}
+
+.topnav .items a{
+    margin: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
