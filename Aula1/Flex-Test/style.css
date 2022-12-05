@@ -1,0 +1,37 @@
+body
+{
+    margin: 0;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bicho
+{
+    margin: 30px;
+    padding: 30px;
+    border: 5px solid black;
+    font-size: 8em;
+    text-align: center;
+}
+
+.bicho:first-child
+{
+    background-color: purple;
+}
+
+.bicho:nth-child(2)
+{
+    background-color: red;
+}
+
+.bicho:last-child
+{
+    background-color: gray;
+}
